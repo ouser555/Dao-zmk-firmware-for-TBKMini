@@ -90,6 +90,9 @@ daochoc, zmk config, nrfMicro1.4
   不熟悉linux的話失敗率會很高，所以這邊使用github Action的方式編譯會比較簡單。
   如果要使用本地編譯，請自行參考ZMK官方說明文檔。
 
+* 也可以使用keymap editor工具修改keymap檔，減少keycode打錯導致編譯不過的狀況發生。
+  https://github.com/nickcoutsos/keymap-editor
+  使用方式看他的說明即可，這邊建議用匯入keymap檔修改的功能就好。
 
 ## 燒錄方式
 
