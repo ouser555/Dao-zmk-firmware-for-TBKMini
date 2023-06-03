@@ -59,9 +59,9 @@ daochoc, zmk config, nrfMicro1.4
 ## 更改按鍵映射功能
   * 目前沒有更改keycode的user interface，只能靠更改程式碼來改變鍵碼。
   
-  * 可以用文字編輯器打開 /daochoc/daochoc.keymap 修改需要的鍵碼，然後進行編譯燒錄。
+  * 可以用文字編輯器打開 /dao/daochoc.keymap 修改需要的鍵碼，然後進行編譯燒錄。
   
-  * [https://github.com/ouser555/daochoc/blob/main/daochoc/daochoc.keymap](https://github.com/ouser555/dao-zmk-config/blob/main/config/boards/arm/dao/dao.keymap)
+  * https://github.com/ouser555/Dao-zmk-firmware-for-TBKMini/blob/main/config/boards/arm/dao/dao.keymap
     
     當然是到使用者自己的repo去修改。
 
