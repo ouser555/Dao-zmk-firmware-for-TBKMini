@@ -67,9 +67,9 @@ daochoc, zmk config, nrfMicro1.4
 
 ## 編譯方式
  
-* 1. 在github上建一個帳號，fork這個repo
+1. 在github上建一個帳號，fork這個repo
    
-* 2. 進入剛fork到自己github帳號的repo 
+2. 進入剛fork到自己github帳號的repo 
      github網頁靠上方橫的標籤頁，選Action
      如果沒看到它自動編譯，選左邊欄位的Build，
      右邊有個run workflow的下拉選單，
@@ -82,11 +82,11 @@ daochoc, zmk config, nrfMicro1.4
      如果藍牙配對資料錯亂了就可以燒錄這個reset燒錄檔，
      然後再重燒一次鍵盤燒錄檔即可。
   
-  * 之後可以在自己的repo內修改keymap，
+2. 之後可以在自己的repo內修改keymap，
     Action選單裡面都會自動編譯，
     稍微等一下就會編譯完成。
   
-  * 最近ZMK的改版，要安裝linux開發環境變得繁瑣很多，
+3. 最近ZMK的改版，要安裝linux開發環境變得繁瑣很多，
     失敗率也很高，所以這邊使用github Action的方式編譯會比較簡單。
     如果要使用本地編譯，請自行參考ZMK官方說明文檔。
 
