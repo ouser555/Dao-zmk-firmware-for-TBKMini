@@ -27,10 +27,10 @@
 //        | LALT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | RALT |
 //                           | RSE | SPC | LWR |   | LWR | BKSP | RSE |
                         bindings = <
-&trans &kp BSPC      &kp RG(S)   &kp RG(MINUS) &kp UP  &kp RG(PLUS)   &kp R           &kp F6    &kp F7   &kp F8   &kp F9   &kp F10  &kp F11 &mt RGUI F12
+&kp RGUI &kp BSPC   &kp RG(S)   &kp RG(MINUS) &kp UP  &kp RG(PLUS)   &kp R           &kp F6    &kp F7   &kp F8   &kp F9   &kp F10  &kp F11 &mt RGUI F12
        &sys_reset &kp LC(LA(RSHFT)) &kp LEFT &kp DOWN &kp RIGHT &kp RG(R)        &kp CARET &kp AMPS &kp STAR &kp LPAR &kp RPAR &mt RCTRL MINUS
        &mt RG(Z)  &kp RSHFT   &kp X &kp RG(C)   &kp RG(V)   &kp V           &kp N6    &kp N7   &kp N8   &kp N9   &kp N0   &trans
-                                              &lt ADJ TAB &trans &trans   &trans &trans &lt ADJ DEL
+                                              &kp LGUI &kp LALT &kp SPACE   &trans &trans &lt ADJ DEL
                         >;
                 };
                 lower_layer {
