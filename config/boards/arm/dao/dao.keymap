@@ -30,7 +30,7 @@
    &trans &kp BSPC   &kp RG(A) &kp X &kp RG(C) &kp RG(V) &kp R   &kp T &kp N5  &kp E     &kp O   &kp P    &kp BSPC
    &trans &kp RG(S)  &kp LC(LA(RSHFT)) &kp RG(MINUS) &kp UP &kp RG(PLUS) &kp RG(R)   &kp E &kp O  &kp C     &kp T   &kp SEMI &sys_reset 
           &kp RG(Z) &kp RSHFT &kp LEFT &kp DOWN &kp RIGHT &kp V   &kp N &kp R  &kp N0 &kp N &bt BT_CLR &kp ENTER
-                  &kp LALT &kp SPACE &sys_reset   &kp SPACE &kp LC(LA(RGUI)) &kp RCTRL
+                  &kp LALT &kp SPACE &sys_reset   &kp SPACE &kp LC(LA(RGUI(N))) &kp RCTRL
                         >;
                 };
                 lower_layer {
